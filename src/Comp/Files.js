@@ -42,7 +42,7 @@ function Files() {
             <Col key={i} className="cards-element">
               <div className="wrapper">
                 <div className="product-img">
-                  <img className="img" src={e.Image_url} alt="Product Image" />
+                  <img className="img-container" src={e.Image_url} alt="Product Image" />
                 </div>
                 <div className="product-info">
                   <div className="product-text">
